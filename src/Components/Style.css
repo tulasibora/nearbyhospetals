@@ -1,0 +1,57 @@
+.hospitalDiv {
+  height: auto;
+  width: 40vw;
+  border: 1px solid lightgray;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.7rem;
+}
+.hospitalDiv h3 {
+  color: rgb(51, 114, 95);
+  font-size: 1.5rem;
+}
+.allHospitalList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+/* ////////////////////// */
+.hospital {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
+.hospitalDetails {
+  border: 2px solid lightgray;
+  width: 47vw;
+  border-radius: 2rem;
+}
+.hospitalMaping {
+  border-radius: 1rem;
+  border: 2px solid lightgray;
+  width: 47vw;
+  padding: 0rem 1rem;
+  max-height: 85vh;
+  min-height: 85vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.text {
+  margin-bottom: 0.2rem;
+  padding: 1rem;
+}
+.text p {
+  margin: 0.1rem;
+  font-size: 1.2rem;
+}
+.text p span {
+  color: rgb(27, 92, 72);
+}
+.text h1 {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+.timeDiv {
+  margin-left: -35rem;
+  font-size: 1.2rem;
+}
